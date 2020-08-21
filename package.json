@@ -1,0 +1,20 @@
+{
+    "name": "apollo-federation-local-services",
+    "version": "1.0.0",
+    "description": "Example for using Apollo Federation with Local Services",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Patrick Arminio <patrick.arminio@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@apollo/gateway": "^0.19.1",
+        "@graphql-tools/wrap": "^6.0.18",
+        "apollo-server": "^2.16.1",
+        "cross-fetch": "^3.0.5",
+        "graphql": "^15.3.0",
+        "graphql-transform-federation": "^2.1.0",
+        "prettier": "^2.0.5"
+    }
+}
